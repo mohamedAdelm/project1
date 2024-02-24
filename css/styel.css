@@ -1,0 +1,316 @@
+
+
+/* background img */
+header{
+
+    background-image: url("../images/hero-bg.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+/* hover btع ancoer underline */
+.nav-item:hover .nav-link{
+
+    text-decoration:underline;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .nav-link.active{
+
+    color: white;
+    font-size: 25px;
+}
+/* layer */
+.homeLayer {
+
+background-color: rgb(0, 0,0,0.6);
+    
+}
+/* move elemant */
+.homeLayerContent{
+ padding-top: 55px;
+ margin-top: 75px;
+}
+
+
+.homeLayerContent h1{
+
+    font-size: 85px;
+}
+
+/* ملحوظة ي حلو ان الانيميشن بيروح لل after
+ اللي بتتغير موجودة فيه proparty  علشان      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+ .homeLayerContent  p::after{
+    content: "";
+    animation: removetext 15s 2s infinite alternate;
+    -webkit-animation: removetext 15s 2s infinite alternate;
+    color: white;
+    font-size: 30px;
+}
+
+/* anmaition */
+@keyframes removetext{
+    0%{content:"De|"}
+    2%{content:"Desi|"}
+    4%{content:"Design|"}
+    6%{content:"Designer|"}
+    8%{content:"Design"}
+    10%{content:"Desi|"}
+    12%{content:"De|"}
+    14%{content:"Fr|"}
+    16%{content:"Free|"}
+    18%{content:"Freela|"}
+    20%{content:"Freelanc|"}
+    22%{content:"Freelancer|"}
+    24%{content:"Freelanc|"}
+    26%{content:"Freela|"}
+    28%{content:"Free|"}
+    30%{content:"Fr|"}
+    32%{content:"De|"}
+    34%{content:"Devo|"}
+    36%{content:"Devolp|"}
+    38%{content:"Devolper|"}
+    40%{content:"Devolp|"}
+    45%{content:"Devo|"}
+    50%{content:"De|"}
+    55%{content:"ph|"}
+    60%{content:"phot|"}
+    65%{content:"photog|"}
+    70%{content:"photogra|"}
+    75%{content:"photograph|"}
+    80%{content:"Photographer|"}
+    85%{content:"photograph|"}
+    90%{content:"photogra|"}
+    95%{content:"photog|"}
+    98%{content:"phot|"}
+    100%{content:"ph|"}
+   
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+}
+
+.sec1{
+margin-top: 55px;
+margin-bottom: 55px;
+padding: 3px;
+    background-color: white;
+
+}
+
+
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico-hov:hover .icon{
+    border-color: rgb(79, 82, 82);
+    color: white;
+    background-color: blue;
+
+
+}
+
+.icon-2{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(26, 110, 219) ;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.sec3{
+    height:800px;
+    background-image: url("../images/counters-bg.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+  
+}
+.bg2{
+
+margin-top: 55px;
+
+
+}
+
+.layer2{
+
+    background-color: rgb(29, 29, 209,0.5);
+}
+
+.layer2 svg{
+    color: white;
+}
+
+figure:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.card-body button{
+    transform:translate(105%,-85%);
+    -webkit-transform:translate(105%,-85%);
+    -moz-transform:translate(105%,-85%);
+    -ms-transform:translate(105%,-85%);
+    -o-transform:translate(105%,-85%);
+}
+
+.card-body h3{
+    transition:3s all ;
+    -webkit-transition:3s all ;
+    -moz-transition:3s all ;
+    -ms-transition:3s all ;
+    -o-transition:3s all ;
+}
+
+h3:hover {
+
+color: blue;
+
+
+}
+
+span a{
+
+color:black;
+
+}
+
+
+span:hover a{
+
+    color: blue;
+    
+    
+    }
+    
+.my-caursoul  .carousel-item{
+
+background-image: url("../images/overlay-bg.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+}
+
+
+
+
+
+ .my-caursoul  .carousel-indicators [ data-bs-target]{
+    width: 15px;
+    height: 15px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+ }
+  
+ .carousel-indicators .active{
+ 
+     background-color: blue;
+ }
+ 
+ .line4{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+}
+
+
+.icon4 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon4 a{
+
+background-color:transparent;
+border: none;
+
+}
+.contact-icon .icon4:hover{
+
+color: white;
+border-color: rgb(165, 157, 157);
+background-color: blue;
+
+
+
+}
+.contact-icon a{
+
+
+    border: none;
+    color: black;
+}
+
+
+/* #contact{
+
+    background-image: url("../images/overlay-bg.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+
+
+
+
+
+@media screen and (min-width: 750px)  {
+    .sec3 {
+        height:500px ;
+    }
+  }
+@media screen and (max-width: 800px) and (min-width: 766px) {
+    .bg2 {
+     margin-top: 130px;
+    }
+  }
+  
